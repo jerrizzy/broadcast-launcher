@@ -1,0 +1,1 @@
+Broadcast Launcher is a Windows application that automates the startup, monitoring, and operation of a church broadcast system, including vMix, X32, PTZ cameras, ATEM, and operator checklists.
