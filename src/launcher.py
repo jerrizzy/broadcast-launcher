@@ -1,10 +1,10 @@
-import os
-import sys
 import subprocess
 from pathlib import Path
 import json
 
-
+# this function points to the config file and loads it into a dictionary
+# it turns into a dictionary with this line: return json.load(file)
+# the .open() method opens the file in read mode and the encoding is set to utf-8
 def load_config():
     """
     Load configuration settings from a config file.
@@ -14,24 +14,10 @@ def load_config():
     with config_path.open("r", encoding="utf-8") as file:
         return json.load(file)
 
-
-def launch_app(app_path: str) -> bool:
-    """Launch an application given its filesystem path.
-
-    Returns True on successful start, False otherwise.
-    Works cross-platform: Windows, macOS, Linux.
+# this function launches an application given its path
+# it uses the subprocess library to run the application in a new process
+def launch_app(app_path: str):
     """
-    try:
-        if sys.platform == "darwin":
-            subprocess.Popen(["open", app_path])
-        elif os.name == "nt":
-            # os.startfile raises OSError on failure
-            os.startfile(app_path)
-        else:
-            # Assume a freedesktop-like system
-            subprocess.Popen(["xdg-open", app_path])
-        return True
-    except Exception as e:
-        # Keep errors visible for the caller / debugging
-        print(f"Failed to launch {app_path}: {e}")
-        return False
+    Launch an application given its path.
+    """
+    subprocess.Popen([app_path])
