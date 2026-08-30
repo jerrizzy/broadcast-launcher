@@ -1,0 +1,100 @@
+2026-08-28 02:31:14,516 INFO Broadcast Launcher Starting...
+2026-08-28 02:31:14,516 INFO Attempting to launch %s, app['name]
+2026-08-28 02:32:32,037 INFO Broadcast Launcher Starting...
+2026-08-28 02:32:32,038 INFO Attempting to launch %s, app['name]
+2026-08-28 02:32:32,041 INFO Chrome lauched successfuly
+2026-08-28 02:32:32,041 INFO Attempting to launch %s, app['name]
+2026-08-28 02:32:32,041 ERROR Notepad failed to lauch
+2026-08-28 02:40:59,987 INFO Broadcast Launcher Starting...
+2026-08-28 02:40:59,987 INFO Attempting to launch Chrome
+2026-08-28 02:40:59,990 INFO Chrome lauched successfuly
+2026-08-28 02:40:59,991 INFO Attempting to launch Notepad
+2026-08-28 02:40:59,991 ERROR Notepad failed to lauch
+2026-08-28 03:09:51,719 INFO Broadcast Launcher Starting...
+2026-08-28 03:09:51,719 INFO Attempting to launch Chrome
+2026-08-28 03:09:51,722 INFO Chrome lauched successfuly
+2026-08-28 03:09:51,722 INFO Attempting to launch Notepad
+2026-08-28 03:09:51,723 ERROR Notepad failed to lauch
+2026-08-28 03:11:08,333 INFO Broadcast Launcher Starting...
+2026-08-28 03:11:08,334 INFO Attempting to launch Chrome
+2026-08-28 03:11:08,337 INFO Chrome lauched successfuly
+2026-08-28 03:11:08,337 INFO Attempting to launch Notepad
+2026-08-28 03:11:08,337 ERROR Notepad failed to lauch
+2026-08-28 03:19:42,472 INFO Broadcast Launcher Starting...
+2026-08-28 03:19:42,473 INFO Attempting to launch Chrome
+2026-08-28 03:19:42,476 INFO Chrome lauched successfuly
+2026-08-28 03:19:43,476 INFO Attempting to launch Notepad
+2026-08-28 03:19:43,477 ERROR Notepad failed to lauch
+2026-08-28 03:24:10,680 INFO Broadcast Launcher Starting...
+2026-08-28 03:24:10,680 INFO Attempting to launch Chrome
+2026-08-28 03:24:10,683 INFO Chrome lauched successfuly
+2026-08-28 03:24:11,684 INFO Attempting to launch Notepad
+2026-08-28 03:24:11,685 ERROR Notepad failed to lauch
+2026-08-28 03:38:09,485 INFO Broadcast Launcher Starting...
+2026-08-28 03:38:09,485 INFO Attempting to launch Chrome
+2026-08-28 03:38:09,488 INFO Chrome lauched successfuly
+2026-08-28 03:38:10,489 INFO Attempting to launch Notepad
+2026-08-28 03:38:10,489 ERROR Notepad failed to lauch
+2026-08-28 03:41:20,158 INFO Broadcast Launcher Starting...
+2026-08-28 03:41:20,159 INFO Attempting to launch Chrome
+2026-08-28 03:41:20,162 INFO Chrome lauched successfuly
+2026-08-28 03:41:21,163 INFO Attempting to launch vMix
+2026-08-28 03:41:21,166 INFO vMix lauched successfuly
+2026-08-28 03:41:31,167 INFO Attempting to launch PTZ Control
+2026-08-28 03:41:31,167 ERROR PTZ Control failed to lauch
+2026-08-28 03:41:34,168 INFO Attempting to launch Notepad
+2026-08-28 03:41:34,168 ERROR Notepad failed to lauch
+2026-08-29 20:56:37,614 INFO Broadcast Launcher Starting...
+2026-08-29 20:56:37,615 INFO Attempting to launch Chrome
+2026-08-29 20:56:37,618 INFO Chrome lauched successfuly
+2026-08-29 20:56:38,619 INFO Attempting to launch Zoom
+2026-08-29 20:56:38,622 INFO Zoom lauched successfuly
+2026-08-29 20:56:43,623 INFO Attempting to launch Terminal
+2026-08-29 20:56:43,633 INFO Terminal lauched successfuly
+2026-08-29 20:56:46,634 INFO Attempting to launch Notepad
+2026-08-29 20:56:46,634 ERROR Notepad failed to lauch
+2026-08-29 21:03:46,072 INFO Broadcast Launcher Starting...
+2026-08-29 21:03:46,073 INFO Attempting to launch Chrome
+2026-08-29 21:03:46,075 INFO Chrome lauched successfuly
+2026-08-29 21:03:47,076 INFO Attempting to launch Zoom
+2026-08-29 21:03:47,080 INFO Zoom lauched successfuly
+2026-08-29 21:03:52,081 INFO Attempting to launch Terminal
+2026-08-29 21:03:52,091 INFO Terminal lauched successfuly
+2026-08-29 21:03:55,091 INFO Attempting to launch Notepad
+2026-08-29 21:03:55,091 ERROR Notepad failed to lauch
+2026-08-29 21:33:57,067 INFO Broadcast Launcher Starting...
+2026-08-29 21:33:57,074 INFO Attempting to launch Chrome
+2026-08-29 21:33:57,077 INFO Chrome lauched successfuly
+2026-08-29 21:33:58,078 INFO Attempting to launch Zoom
+2026-08-29 21:33:58,081 INFO Zoom lauched successfuly
+2026-08-29 21:34:03,082 INFO Attempting to launch Terminal
+2026-08-29 21:34:03,091 INFO Terminal lauched successfuly
+2026-08-29 21:34:06,092 INFO Attempting to launch Notepad
+2026-08-29 21:34:06,092 ERROR Notepad failed to lauch
+2026-08-29 21:48:51,557 INFO Broadcast Launcher Starting...
+2026-08-29 21:48:51,557 INFO Attempting to launch Chrome
+2026-08-29 21:48:51,560 INFO Chrome lauched successfuly
+2026-08-29 21:48:52,561 INFO Attempting to launch Zoom
+2026-08-29 21:48:52,565 INFO Zoom lauched successfuly
+2026-08-29 21:48:57,565 INFO Attempting to launch Terminal
+2026-08-29 21:48:57,571 INFO Terminal lauched successfuly
+2026-08-29 21:49:00,572 INFO Attempting to launch Notepad
+2026-08-29 21:49:00,613 INFO Notepad lauched successfuly
+2026-08-29 21:54:01,106 INFO Broadcast Launcher Starting...
+2026-08-29 21:54:01,107 INFO Attempting to launch Chrome
+2026-08-29 21:54:01,109 INFO Chrome lauched successfuly
+2026-08-29 21:54:02,110 INFO Attempting to launch Zoom
+2026-08-29 21:54:02,117 INFO Zoom lauched successfuly
+2026-08-29 21:54:07,117 INFO Attempting to launch Terminal
+2026-08-29 21:54:07,126 INFO Terminal lauched successfuly
+2026-08-29 21:54:10,127 INFO Attempting to launch Notepad
+2026-08-29 21:54:10,166 INFO Notepad lauched successfuly
+2026-08-29 22:02:41,500 INFO Broadcast Launcher Starting...
+2026-08-29 22:02:41,501 INFO Attempting to launch Chrome
+2026-08-29 22:02:41,503 INFO Chrome lauched successfuly
+2026-08-29 22:02:42,504 INFO Attempting to launch Zoom
+2026-08-29 22:02:42,508 INFO Zoom lauched successfuly
+2026-08-29 22:02:47,509 INFO Attempting to launch Calculator
+2026-08-29 22:02:47,518 INFO Calculator lauched successfuly
+2026-08-29 22:02:50,519 INFO Attempting to launch Notepad
+2026-08-29 22:02:50,556 INFO Notepad lauched successfuly

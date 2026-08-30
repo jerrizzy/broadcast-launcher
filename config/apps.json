@@ -1,0 +1,23 @@
+{
+    "apps": [
+
+    {
+      "name": "Chrome",
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe"
+    },
+    {
+      "name": "Zoom",
+      "path": "C:\\Users\\User\\AppData\\Roaming\\Zoom\\bin\\Zoom.exe",
+      "delay": 5
+    },
+    {
+      "name": "Calculator",
+      "path": "C:\\Windows\\System32\\calc.exe",
+      "delay": 3
+    },
+    {
+    "name": "Notepad",
+    "path": "C:\\Windows\\System32\\notepad.exe"
+    }
+    ]
+}
