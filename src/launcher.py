@@ -14,6 +14,14 @@ def load_config():
     with config_path.open("r", encoding="utf-8") as file:
         return json.load(file)
 
+
+def is_app_running(process_name: str) -> bool:
+    """Return True if a process with that name is running already"""
+    for process in psutil.process_iter(['name']):
+        if process.info['name'] and process.info['name'].lower() == process_name.lower():
+            return True
+    return False
+
 # this function launches an application given its path
 # it uses the subprocess library to run the application in a new process
 def launch_app(app_name: str, app_path: str):
