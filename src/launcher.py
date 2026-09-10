@@ -24,7 +24,11 @@ def is_app_running(process_name: str) -> bool:
 
 # this function launches an application given its path
 # it uses the subprocess library to run the application in a new process
-def launch_app(app_name: str, app_path: str):
+def launch_app(app_name: str, app_path: str, process_name: str):
+    """launch an application only if it's not already running"""
+    if is_app_running(process_name):
+        return True  # Application is already running, no need to launch again
+
     """
     attempt to launch an application.
     Returns True when successful and False when unsuccessful.
