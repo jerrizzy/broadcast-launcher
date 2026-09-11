@@ -10,13 +10,15 @@
       "name": "Zoom",
       "path": "C:\\Users\\User\\AppData\\Roaming\\Zoom\\bin\\Zoom.exe",
       "delay": 5,
-      "process_name": "Zoom.exe"
+      "detection": "window",
+      "window_title": "Zoom"
     },
     {
       "name": "Calculator",
       "path": "C:\\Windows\\System32\\calc.exe",
       "delay": 3,
-      "process_name": "calc.exe"
+      "detection": "window",
+      "window_title": "Calculator"
     },
     {
     "name": "Notepad",
