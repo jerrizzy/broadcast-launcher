@@ -11,7 +11,7 @@ def load_config():
     """
     Load configuration settings from a config file.
     """
-    config_path = Path(__file__).resolve().parent.parent / "config" / "apps.json"
+    config_path = Path(__file__).resolve().parent.parent / "config" / "broadcast.json"
 
     with config_path.open("r", encoding="utf-8") as file:
         return json.load(file)

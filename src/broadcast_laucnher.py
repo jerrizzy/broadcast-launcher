@@ -1,6 +1,7 @@
 from launcher import load_config, launch_app, is_app_running_or_window_open
 import logging
 import time
+import devices.camera as camera
 
 
 class BroadcastLauncher:
@@ -10,6 +11,25 @@ class BroadcastLauncher:
         #and I use its keys to get the name and path.
         # step 1: read apps.json file and load it into a dictionary
         self.config = load_config()
+
+    def wake_cameras(self):
+        cameras = self.config.get("cameras", [])
+
+        for camera_config in cameras:
+            camera = PTZCamera(
+                name=camera_config["name"],
+                ip=camera_config["ip"],
+                port=camera_config.get("port", 1259)  # Default to 1259 if not specified
+            )
+
+            logging.info("waking %", camera.name)
+
+            success = camera.wake_and_wait()
+
+            if success:
+                logging.info("%s is ready", camera.name)
+            else:
+                logging.error("%s failed to wake", camera.name)
 
     def launch_all(self):
 

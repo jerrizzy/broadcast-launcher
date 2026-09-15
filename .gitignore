@@ -1,0 +1,11 @@
+#virtual environment
+.venv/
+
+# Logs
+logs/
+
+#local configuration
+config/broadcast.json
+
+#test ptzcamera
+src/devices/ptz_test.py
