@@ -22,6 +22,7 @@ def main():
     logging.info("Broadcast Launcher Starting...")
 
     launcher = BroadcastLauncher()
+    launcher.wake_cameras()
     launcher.launch_all()
     
 

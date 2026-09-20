@@ -65,13 +65,18 @@ def is_app_running_or_window_open(app: dict) -> bool:
 
 # this function launches an application given its path
 # it uses the subprocess library to run the application in a new process
-def launch_app(app_name: str, app_path: str):
+def launch_app(app_name: str, app_path: str, arguments=None):
     """
     attempt to launch an application.
     Returns True when successful and False when unsuccessful.
     """
+    command = [app_path]
+
+    if arguments:
+        command.extend(arguments)
+
     try:
-        subprocess.Popen([app_path])
+        subprocess.Popen(command)
         return True
 
     except FileNotFoundError:

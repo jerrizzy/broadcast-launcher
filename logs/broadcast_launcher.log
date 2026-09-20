@@ -277,3 +277,190 @@
 2026-09-12 21:58:01,318 INFO Attempting to launch Calculator
 2026-09-12 21:58:01,328 INFO Calculator launched successfully
 2026-09-12 21:58:04,333 INFO Notepad is already running or window is open
+2026-09-15 12:20:34,498 INFO Broadcast Launcher Starting...
+2026-09-15 12:20:34,508 INFO Attempting to launch Chrome
+2026-09-15 12:20:34,510 INFO Chrome launched successfully
+2026-09-15 12:20:35,512 INFO Attempting to launch Zoom
+2026-09-15 12:20:35,517 INFO Zoom launched successfully
+2026-09-15 12:20:40,519 INFO Attempting to launch Calculator
+2026-09-15 12:20:40,537 INFO Calculator launched successfully
+2026-09-15 12:20:43,543 INFO Attempting to launch Notepad
+2026-09-15 12:20:43,580 INFO Notepad launched successfully
+2026-09-15 12:40:49,989 INFO Broadcast Launcher Starting...
+2026-09-15 12:40:49,990 INFO Chrome is already running or window is open
+2026-09-15 12:40:49,991 INFO Attempting to launch Zoom
+2026-09-15 12:40:49,995 INFO Zoom launched successfully
+2026-09-15 12:40:54,996 INFO Attempting to launch Vmix
+2026-09-15 12:40:54,998 ERROR Vmix failed to launch
+2026-09-15 12:40:58,006 INFO Attempting to launch Notepad
+2026-09-15 12:40:58,031 INFO Notepad launched successfully
+2026-09-15 12:59:04,788 INFO Broadcast Launcher Starting...
+2026-09-15 12:59:04,790 INFO Chrome is already running or window is open
+2026-09-15 12:59:04,790 INFO Attempting to launch Zoom
+2026-09-15 12:59:04,794 INFO Zoom launched successfully
+2026-09-15 12:59:09,795 INFO Attempting to launch Vmix
+2026-09-15 12:59:09,795 ERROR Vmix failed to launch
+2026-09-15 12:59:12,805 INFO Notepad is already running or window is open
+2026-09-15 15:07:26,872 INFO Broadcast Launcher Starting...
+2026-09-15 15:07:51,580 INFO Broadcast Launcher Starting...
+2026-09-15 15:11:45,351 INFO Broadcast Launcher Starting...
+2026-09-15 15:13:06,163 INFO Broadcast Launcher Starting...
+2026-09-15 15:14:24,686 INFO Broadcast Launcher Starting...
+2026-09-15 15:21:43,734 INFO Broadcast Launcher Starting...
+2026-09-15 15:23:23,206 INFO Broadcast Launcher Starting...
+2026-09-15 15:23:23,207 INFO waking Center Camera
+2026-09-15 15:24:03,325 INFO Center Camera is ready
+2026-09-15 15:24:03,326 INFO waking Right Camera
+2026-09-15 15:24:43,425 INFO Right Camera is ready
+2026-09-15 15:24:43,425 INFO waking Left Camera
+2026-09-15 15:25:22,070 INFO Left Camera is ready
+2026-09-15 15:25:22,074 INFO Chrome is already running or window is open
+2026-09-15 15:25:22,077 INFO Zoom is already running or window is open
+2026-09-15 15:25:22,077 INFO Attempting to launch Vmix
+2026-09-15 15:25:22,168 INFO Vmix launched successfully
+2026-09-15 15:25:25,173 INFO Notepad is already running or window is open
+2026-09-15 15:44:42,223 INFO Broadcast Launcher Starting...
+2026-09-15 15:44:42,224 INFO waking Center Camera
+2026-09-15 15:45:22,334 INFO Center Camera is ready
+2026-09-15 15:45:22,335 INFO waking Right Camera
+2026-09-15 15:46:02,438 INFO Right Camera is ready
+2026-09-15 15:46:02,439 INFO waking Left Camera
+2026-09-15 15:46:41,108 INFO Left Camera is ready
+2026-09-15 15:46:41,114 INFO Chrome is already running or window is open
+2026-09-15 15:46:41,206 INFO Zoom is already running or window is open
+2026-09-15 15:46:41,207 INFO Attempting to launch Vmix
+2026-09-15 15:46:41,215 ERROR Vmix failed to launch
+2026-09-15 16:25:04,057 INFO Broadcast Launcher Starting...
+2026-09-15 16:25:04,057 INFO waking Center Camera
+2026-09-15 16:25:41,177 INFO Center Camera is ready
+2026-09-15 16:25:41,177 INFO waking Right Camera
+2026-09-15 16:26:21,280 INFO Right Camera is ready
+2026-09-15 16:26:21,280 INFO waking Left Camera
+2026-09-15 16:27:03,389 ERROR Left Camera failed to wake
+2026-09-15 16:27:03,395 INFO Chrome is already running or window is open
+2026-09-15 16:27:03,396 INFO Attempting to launch Zoom
+2026-09-15 16:27:03,400 INFO Zoom launched successfully
+2026-09-15 16:27:08,401 INFO Attempting to launch Vmix
+2026-09-15 16:27:08,401 ERROR Vmix failed to launch
+2026-09-15 16:33:05,132 INFO Broadcast Launcher Starting...
+2026-09-15 16:33:05,133 INFO waking Center Camera
+2026-09-15 16:33:05,140 INFO Center Camera is ready
+2026-09-15 16:33:05,140 INFO waking Right Camera
+2026-09-15 16:33:05,145 INFO Right Camera is ready
+2026-09-15 16:33:05,145 INFO waking Left Camera
+2026-09-15 16:33:05,152 INFO Left Camera is ready
+2026-09-15 16:33:05,153 INFO Chrome is already running or window is open
+2026-09-15 16:33:05,154 INFO Zoom is already running or window is open
+2026-09-15 16:33:05,154 INFO Attempting to launch Vmix
+2026-09-15 16:33:05,155 ERROR Vmix failed to launch
+2026-09-15 16:58:03,737 INFO Broadcast Launcher Starting...
+2026-09-15 16:58:03,737 INFO waking Center Camera
+2026-09-15 16:58:03,743 INFO Center Camera is ready
+2026-09-15 16:58:03,743 INFO waking Right Camera
+2026-09-15 16:58:03,752 INFO Right Camera is ready
+2026-09-15 16:58:03,752 INFO waking Left Camera
+2026-09-15 16:58:03,755 INFO Left Camera is ready
+2026-09-15 16:58:03,756 INFO Chrome is already running or window is open
+2026-09-15 16:58:03,756 INFO Zoom is already running or window is open
+2026-09-15 16:58:03,757 INFO Attempting to launch Vmix
+2026-09-15 17:04:16,705 INFO Broadcast Launcher Starting...
+2026-09-15 17:04:16,705 INFO waking Center Camera
+2026-09-15 17:04:16,708 INFO Center Camera is ready
+2026-09-15 17:04:16,708 INFO waking Right Camera
+2026-09-15 17:04:16,711 INFO Right Camera is ready
+2026-09-15 17:04:16,711 INFO waking Left Camera
+2026-09-15 17:04:16,712 INFO Left Camera is ready
+2026-09-15 17:04:16,714 INFO Chrome is already running or window is open
+2026-09-15 17:04:16,714 INFO Zoom is already running or window is open
+2026-09-15 17:04:16,715 INFO Attempting to launch Vmix
+2026-09-15 17:04:16,715 ERROR Vmix failed to launch
+2026-09-15 17:17:04,006 INFO Broadcast Launcher Starting...
+2026-09-15 17:17:04,006 INFO waking Center Camera
+2026-09-15 17:17:04,008 INFO Center Camera is ready
+2026-09-15 17:17:04,008 INFO waking Right Camera
+2026-09-15 17:17:04,012 INFO Right Camera is ready
+2026-09-15 17:17:04,012 INFO waking Left Camera
+2026-09-15 17:17:04,018 INFO Left Camera is ready
+2026-09-15 17:17:04,020 INFO Chrome is already running or window is open
+2026-09-15 17:17:04,020 INFO Zoom is already running or window is open
+2026-09-15 17:17:04,021 INFO Attempting to launch Vmix
+2026-09-15 17:17:04,021 ERROR Vmix failed to launch
+2026-09-15 17:18:07,121 INFO Broadcast Launcher Starting...
+2026-09-15 17:18:07,122 INFO waking Center Camera
+2026-09-15 17:18:07,126 INFO Center Camera is ready
+2026-09-15 17:18:07,126 INFO waking Right Camera
+2026-09-15 17:18:07,136 INFO Right Camera is ready
+2026-09-15 17:18:07,136 INFO waking Left Camera
+2026-09-15 17:18:07,144 INFO Left Camera is ready
+2026-09-15 17:18:07,145 INFO Chrome is already running or window is open
+2026-09-15 17:18:07,146 INFO Zoom is already running or window is open
+2026-09-15 17:18:07,146 INFO Attempting to launch Vmix
+2026-09-15 17:18:07,146 ERROR Vmix failed to launch
+2026-09-15 17:19:49,537 INFO Broadcast Launcher Starting...
+2026-09-15 17:19:49,537 INFO waking Center Camera
+2026-09-15 17:19:49,548 INFO Center Camera is ready
+2026-09-15 17:19:49,548 INFO waking Right Camera
+2026-09-15 17:19:49,552 INFO Right Camera is ready
+2026-09-15 17:19:49,552 INFO waking Left Camera
+2026-09-15 17:19:49,559 INFO Left Camera is ready
+2026-09-15 17:19:49,560 INFO Chrome is already running or window is open
+2026-09-15 17:19:49,561 INFO Zoom is already running or window is open
+2026-09-15 17:19:49,561 INFO Attempting to launch Vmix
+2026-09-15 17:19:49,565 INFO Vmix launched successfully
+2026-09-15 17:21:25,102 INFO Broadcast Launcher Starting...
+2026-09-15 17:21:25,102 INFO waking Center Camera
+2026-09-15 17:21:25,107 INFO Center Camera is ready
+2026-09-15 17:21:25,107 INFO waking Right Camera
+2026-09-15 17:21:25,109 INFO Right Camera is ready
+2026-09-15 17:21:25,109 INFO waking Left Camera
+2026-09-15 17:21:25,118 INFO Left Camera is ready
+2026-09-15 17:21:25,119 INFO Chrome is already running or window is open
+2026-09-15 17:21:25,120 INFO Attempting to launch Zoom
+2026-09-15 17:21:25,124 INFO Zoom launched successfully
+2026-09-15 17:21:30,125 INFO Attempting to launch Vmix
+2026-09-15 17:21:30,131 INFO Vmix launched successfully
+2026-09-15 17:23:10,694 INFO Broadcast Launcher Starting...
+2026-09-15 17:23:10,694 INFO waking Center Camera
+2026-09-15 17:23:10,696 INFO Center Camera is ready
+2026-09-15 17:23:10,696 INFO waking Right Camera
+2026-09-15 17:23:10,704 INFO Right Camera is ready
+2026-09-15 17:23:10,704 INFO waking Left Camera
+2026-09-15 17:23:10,715 INFO Left Camera is ready
+2026-09-15 17:23:10,716 INFO Chrome is already running or window is open
+2026-09-15 17:23:10,717 INFO Zoom is already running or window is open
+2026-09-15 17:23:10,717 INFO Attempting to launch Vmix
+2026-09-15 17:23:10,720 INFO Vmix launched successfully
+2026-09-15 17:24:41,370 INFO Broadcast Launcher Starting...
+2026-09-15 17:24:41,370 INFO waking Center Camera
+2026-09-15 17:24:41,373 INFO Center Camera is ready
+2026-09-15 17:24:41,373 INFO waking Right Camera
+2026-09-15 17:24:41,375 INFO Right Camera is ready
+2026-09-15 17:24:41,375 INFO waking Left Camera
+2026-09-15 17:24:41,380 INFO Left Camera is ready
+2026-09-15 17:24:41,381 INFO Chrome is already running or window is open
+2026-09-15 17:24:41,382 INFO Zoom is already running or window is open
+2026-09-15 17:24:41,382 INFO Attempting to launch Vmix
+2026-09-15 17:24:41,385 INFO Vmix launched successfully
+2026-09-16 05:01:51,188 INFO Broadcast Launcher Starting...
+2026-09-16 05:01:51,194 INFO waking Center Camera
+2026-09-16 05:01:51,207 INFO Center Camera is ready
+2026-09-16 05:01:51,208 INFO waking Right Camera
+2026-09-16 05:01:51,215 INFO Right Camera is ready
+2026-09-16 05:01:51,215 INFO waking Left Camera
+2026-09-16 05:01:51,223 INFO Left Camera is ready
+2026-09-16 05:01:51,225 INFO Chrome is already running or window is open
+2026-09-16 05:01:51,225 INFO Attempting to launch Zoom
+2026-09-16 05:01:51,231 INFO Zoom launched successfully
+2026-09-16 05:01:56,232 INFO Attempting to launch Vmix
+2026-09-16 05:01:56,338 INFO Vmix launched successfully
+2026-09-19 09:17:41,699 INFO Broadcast Launcher Starting...
+2026-09-19 09:17:41,705 INFO waking Center Camera
+2026-09-19 09:17:41,709 INFO Center Camera is ready
+2026-09-19 09:17:41,709 INFO waking Right Camera
+2026-09-19 09:17:41,716 INFO Right Camera is ready
+2026-09-19 09:17:41,716 INFO waking Left Camera
+2026-09-19 09:17:41,720 INFO Left Camera is ready
+2026-09-19 09:17:41,722 INFO Chrome is already running or window is open
+2026-09-19 09:17:41,723 INFO Zoom is already running or window is open
+2026-09-19 09:17:41,723 INFO Attempting to launch Vmix
+2026-09-19 09:17:41,819 INFO Vmix launched successfully

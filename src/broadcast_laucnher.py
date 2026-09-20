@@ -2,6 +2,7 @@ from launcher import load_config, launch_app, is_app_running_or_window_open
 import logging
 import time
 import devices.camera as camera
+from concurrent.futures import ThreadPoolExecutor
 
 
 class BroadcastLauncher:
@@ -13,23 +14,72 @@ class BroadcastLauncher:
         self.config = load_config()
 
     def wake_cameras(self):
+        # Read the camera configuration from broadcast.json.
+        # If "cameras" does not exist, use an empty list instead.
         cameras = self.config.get("cameras", [])
 
+        # convert each cam dictionary from config file
+        # into a PTZCamera object
         for camera_config in cameras:
-            camera = PTZCamera(
+            camera_info = camera.PTZCamera(
                 name=camera_config["name"],
                 ip=camera_config["ip"],
                 port=camera_config.get("port", 1259)  # Default to 1259 if not specified
             )
+        
+        with ThreadPoolExecutor(max_workers=(len(camera_info))) as executor:
+            # Submit one wake_and_wait() job for each camera.
+            #
+            # executor.submit(...) does NOT wait for the function to finish.
+            # Instead, it immediately returns a Future object.
+            #
+            # A Future represents:
+            # "this job is running now, and it will eventually produce
+            #  a result or raise an exception."
+            #
+            # We store each Future as a key and the camera object as its value.
+            # That lets us later know which camera belongs to each result.
+            futures = {
+                executor.submit(
+                    camera_info.wake_and_wait, 
+                    40, 1): camera 
+                    for camera in camera_info
+                    }
+            # Process each Future as soon as it finishes.
+            #
+            # The cameras do NOT have to finish in config order.
+            # If Right Camera finishes first, we handle Right Camera first.
+            for future in as_completed(futures):
+                # use the Completed Future to retrieve the camera
+                # associated with that job
+                camera = futures[future]
 
-            logging.info("waking %", camera.name)
+                try:
+                    # future.result() gives us whatever wake_and_wait()
+                    # returned.
+                    #
+                    # In our case:
+                    # True  = camera woke successfully
+                    # False = camera did not wake before timeout
+                    #
+                    # If wake_and_wait() raised an exception,
+                    # future.result() will re-raise it here.
+                    success = future.result()  # This will block until the job is done
 
-            success = camera.wake_and_wait()
+                    logging.info("waking %s", camera.name)
 
-            if success:
-                logging.info("%s is ready", camera.name)
-            else:
-                logging.error("%s failed to wake", camera.name)
+                    if success:
+                        logging.info("%s is ready", camera.name)
+                    else:
+                        logging.error("%s failed to wake", camera.name)
+                        
+                except Exception as e:
+                    logging.error(
+                        "%s encountered an error while waking: %s",
+                        camera.name, e,
+                        error
+                    )
+            
 
     def launch_all(self):
 
@@ -52,7 +102,8 @@ class BroadcastLauncher:
             # and passes it to the launch_app function which uses the subprocess library to run the applicat
             success = launch_app(
                 app["name"],
-                app["path"]
+                app["path"],
+                app.get("arguments")  # Pass arguments if they exist, otherwise None
             )
 
             if success:
