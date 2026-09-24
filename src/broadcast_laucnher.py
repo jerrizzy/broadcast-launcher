@@ -1,8 +1,13 @@
-from launcher import load_config, launch_app, is_app_running_or_window_open
+from launcher import (
+    load_config,
+    launch_app,
+    is_app_running_or_window_open,
+    join_zoom_meeting,
+)
 import logging
 import time
-import devices.camera as camera
-from concurrent.futures import ThreadPoolExecutor
+from devices.camera import PTZCamera
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
 
 class BroadcastLauncher:
@@ -20,12 +25,14 @@ class BroadcastLauncher:
 
         # convert each cam dictionary from config file
         # into a PTZCamera object
-        for camera_config in cameras:
-            camera_info = camera.PTZCamera(
-                name=camera_config["name"],
-                ip=camera_config["ip"],
-                port=camera_config.get("port", 1259)  # Default to 1259 if not specified
-            )
+        camera_info = [
+            PTZCamera(
+            name=camera_config["name"],
+            ip=camera_config["ip"],
+            port=camera_config.get("port", 1259)  # Default to 1259 if not specified
+            ) 
+        for camera_config in cameras
+        ]
         
         with ThreadPoolExecutor(max_workers=(len(camera_info))) as executor:
             # Submit one wake_and_wait() job for each camera.
@@ -41,8 +48,9 @@ class BroadcastLauncher:
             # That lets us later know which camera belongs to each result.
             futures = {
                 executor.submit(
-                    camera_info.wake_and_wait, 
-                    40, 1): camera 
+                    camera.wake_and_wait, 
+                    40, 
+                    1): camera 
                     for camera in camera_info
                     }
             # Process each Future as soon as it finishes.
@@ -72,7 +80,7 @@ class BroadcastLauncher:
                         logging.info("%s is ready", camera.name)
                     else:
                         logging.error("%s failed to wake", camera.name)
-                        
+
                 except Exception as e:
                     logging.error(
                         "%s encountered an error while waking: %s",
@@ -94,6 +102,13 @@ class BroadcastLauncher:
             if is_app_running_or_window_open(app):
                 logging.info("%s is already running or window is open", 
                 app["name"])
+
+                if app["name"].lower() == "zoom":
+                    if join_zoom_meeting(app["window_title"]):
+                        logging.info("Zoom meeting joined successfully")
+                    else:
+                        logging.error("Zoom Join button not found")
+
                 continue  # Skip launching this app if it's already running or window is open
 
             logging.info("Attempting to launch %s", app["name"])
@@ -103,7 +118,8 @@ class BroadcastLauncher:
             success = launch_app(
                 app["name"],
                 app["path"],
-                app.get("arguments")  # Pass arguments if they exist, otherwise None
+                app.get("window_title"),
+                app.get("arguments")
             )
 
             if success:

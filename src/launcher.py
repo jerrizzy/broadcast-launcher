@@ -3,6 +3,10 @@ from pathlib import Path
 import json
 import psutil
 import win32gui
+import os
+from pywinauto import Desktop
+import time
+import logging
 
 # this function points to the config file and loads it into a dictionary
 # the .open() method opens the file in read mode and the encoding is set to utf-8
@@ -63,14 +67,84 @@ def is_app_running_or_window_open(app: dict) -> bool:
     
     return False  # Unknown detection strategy
 
+def join_zoom_meeting(window_title: str) -> bool:
+    """
+    Find the Zoom Join button and invoke it.
+
+    Returns:
+        True  - Join button successfully invoked.
+        False - Join button could not be found or clicked.
+    """
+
+    try:
+        window = Desktop(backend="uia").window(
+            title=window_title
+        )
+
+        join_button = window.child_window(
+            title="Join",
+            control_type="Button"
+        )
+
+        join_button.invoke()
+
+        return True
+
+    except Exception:
+        return False
+
+def wait_for_window(window_title: str, timeout: int = 30) -> bool:
+    """
+    Wait until a window appears.
+
+    This function repeatedly checks whether a window
+    with the given title exists.
+
+    It returns immediately when the window is found.
+
+    Returns:
+        True  - Window found before timeout.
+        False - Window never appeared.
+    """
+    start_time = time.time()
+
+    while time.time() - start_time < timeout:
+        try:
+
+            window = Desktop(
+                backend="uia").window(
+                title=window_title
+                )
+            
+            if window.exists():
+                return True
+
+        except Exception:
+            pass
+
+        time.sleep(1)
+
+    return False
+
+
 # this function launches an application given its path
 # it uses the subprocess library to run the application in a new process
-def launch_app(app_name: str, app_path: str, arguments=None):
+def launch_app(app_name: str, app_path: str, window_title: str, arguments=None):
     """
     attempt to launch an application.
     Returns True when successful and False when unsuccessful.
     """
     command = [app_path]
+
+    if app_path.startswith("zoommtg://"):
+        os.startfile(app_path)
+
+        if wait_for_window(window_title):
+            if join_zoom_meeting(window_title):
+                logging.info("Zoom meeting joined successfully")
+            else:
+                logging.error("Join button not found")
+        return True
 
     if arguments:
         command.extend(arguments)
