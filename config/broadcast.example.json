@@ -8,10 +8,12 @@
     },
     {
       "name": "Zoom",
-      "path": "C:\\Users\\User\\AppData\\Roaming\\Zoom\\bin\\Zoom.exe",
+      "path": "zoommtg://zoom.us/join?confno=YOUR_MEETING_ID&pwd=YOUR_MEETING_PASSWORD",
       "delay": 5,
       "detection": "window",
-      "window_title": "Zoom"
+      "window_title": "Zoom",
+      "meeting_id": "YOUR_MEETING_ID",
+      "password": "YOUR_MEETING_PASSWORD"
     },
     {
       "name": "Calculator",

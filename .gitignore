@@ -9,3 +9,5 @@ config/broadcast.json
 
 #test ptzcamera
 src/devices/ptz_test.py
+
+src/zoom_test.py

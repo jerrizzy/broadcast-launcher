@@ -663,3 +663,504 @@
 2026-09-24 13:02:28,291 INFO Zoom launched successfully
 2026-09-24 13:02:33,292 INFO Attempting to launch Vmix
 2026-09-24 13:02:33,297 INFO Vmix launched successfully
+2026-09-24 13:51:31,465 INFO Broadcast Launcher Starting...
+2026-09-24 13:51:31,470 INFO waking Center Camera
+2026-09-24 13:51:31,470 INFO Center Camera is ready
+2026-09-24 13:51:31,473 INFO waking Left Camera
+2026-09-24 13:51:31,473 INFO Left Camera is ready
+2026-09-24 13:51:31,474 INFO waking Right Camera
+2026-09-24 13:51:31,474 INFO Right Camera is ready
+2026-09-24 13:51:31,476 INFO Chrome is already running or window is open
+2026-09-24 13:51:31,477 INFO Attempting to launch Zoom
+2026-09-24 13:52:02,260 INFO Zoom launched successfully
+2026-09-24 13:52:07,261 INFO Vmix is already running or window is open
+2026-09-26 09:24:23,864 INFO Broadcast Launcher Starting...
+2026-09-26 09:24:23,876 INFO waking Center Camera
+2026-09-26 09:24:23,877 INFO Center Camera is ready
+2026-09-26 09:24:23,877 INFO waking Left Camera
+2026-09-26 09:24:23,877 INFO Left Camera is ready
+2026-09-26 09:24:23,881 INFO waking Right Camera
+2026-09-26 09:24:23,881 INFO Right Camera is ready
+2026-09-26 09:24:23,885 INFO Chrome is already running or window is open
+2026-09-26 09:24:23,885 INFO Attempting to launch Zoom
+2026-09-26 09:24:58,518 INFO Zoom launched successfully
+2026-09-26 09:25:03,519 INFO Vmix is already running or window is open
+2026-09-26 18:58:32,044 INFO Broadcast Launcher Starting...
+2026-09-26 18:58:32,059 INFO waking Left Camera
+2026-09-26 18:58:32,059 INFO Left Camera is ready
+2026-09-26 18:59:03,127 INFO waking Center Camera
+2026-09-26 18:59:03,127 INFO Center Camera is ready
+2026-09-26 18:59:12,129 INFO waking Right Camera
+2026-09-26 18:59:12,129 INFO Right Camera is ready
+2026-09-26 18:59:12,132 INFO Chrome is already running or window is open
+2026-09-26 18:59:12,134 INFO Attempting to launch Zoom
+2026-09-26 18:59:17,118 INFO Zoom meeting joined successfully
+2026-09-26 18:59:17,118 INFO Zoom launched successfully
+2026-09-26 18:59:22,119 INFO Attempting to launch Vmix
+2026-09-26 18:59:22,232 INFO Vmix launched successfully
+2026-09-27 22:45:44,076 INFO Broadcast Launcher Starting...
+2026-09-27 22:46:21,187 INFO waking Right Camera
+2026-09-27 22:46:21,187 INFO Right Camera is ready
+2026-09-27 22:46:21,193 INFO waking Left Camera
+2026-09-27 22:46:21,193 INFO Left Camera is ready
+2026-09-27 22:46:22,535 INFO waking Center Camera
+2026-09-27 22:46:22,535 INFO Center Camera is ready
+2026-09-27 22:46:22,536 INFO Chrome is already running or window is open
+2026-09-27 22:46:22,537 INFO Attempting to launch Zoom
+2026-09-27 22:46:53,133 INFO Zoom launched successfully
+2026-09-27 22:46:58,134 INFO Vmix is already running or window is open
+2026-09-27 22:49:06,819 INFO Broadcast Launcher Starting...
+2026-09-27 22:49:06,828 INFO waking Left Camera
+2026-09-27 22:49:06,828 INFO Left Camera is ready
+2026-09-27 22:49:06,833 INFO waking Center Camera
+2026-09-27 22:49:06,833 INFO Center Camera is ready
+2026-09-27 22:49:06,835 INFO waking Right Camera
+2026-09-27 22:49:06,835 INFO Right Camera is ready
+2026-09-27 22:49:06,838 INFO Chrome is already running or window is open
+2026-09-27 22:49:06,839 INFO Attempting to launch Zoom
+2026-09-27 22:49:12,206 INFO Zoom meeting joined successfully
+2026-09-27 22:49:12,206 INFO Zoom launched successfully
+2026-09-27 22:49:17,206 INFO Attempting to launch Vmix
+2026-09-27 22:49:17,309 INFO Vmix launched successfully
+2026-10-01 11:15:50,508 INFO Broadcast Launcher Starting...
+2026-10-01 11:16:30,666 INFO waking Center Camera
+2026-10-01 11:16:30,667 INFO Center Camera is ready
+2026-10-01 11:16:30,669 INFO waking Left Camera
+2026-10-01 11:16:30,669 INFO Left Camera is ready
+2026-10-01 11:16:30,687 INFO waking Right Camera
+2026-10-01 11:16:30,687 INFO Right Camera is ready
+2026-10-01 11:16:30,688 INFO Chrome is already running or window is open
+2026-10-01 11:16:30,690 INFO Attempting to launch Zoom
+2026-10-01 11:17:01,269 INFO Zoom launched successfully
+2026-10-01 11:17:06,271 INFO Attempting to launch Vmix
+2026-10-01 11:17:06,372 INFO Vmix launched successfully
+2026-10-01 13:28:29,535 INFO Broadcast Launcher Starting...
+2026-10-01 13:28:29,539 INFO waking Left Camera
+2026-10-01 13:28:29,539 INFO Left Camera is ready
+2026-10-01 13:28:29,543 INFO waking Right Camera
+2026-10-01 13:28:29,543 INFO Right Camera is ready
+2026-10-01 13:28:29,546 INFO waking Center Camera
+2026-10-01 13:28:29,546 INFO Center Camera is ready
+2026-10-01 13:28:29,547 INFO Attempting to launch Chrome
+2026-10-01 13:28:29,549 INFO Chrome launched successfully
+2026-10-01 13:28:29,550 INFO Attempting to launch Zoom
+2026-10-01 13:29:00,219 INFO Zoom launched successfully
+2026-10-01 13:29:05,220 INFO Vmix is already running or window is open
+2026-10-01 13:45:24,076 INFO Broadcast Launcher Starting...
+2026-10-01 13:45:24,079 INFO waking Right Camera
+2026-10-01 13:45:24,080 INFO Right Camera is ready
+2026-10-01 13:45:24,083 INFO waking Left Camera
+2026-10-01 13:45:24,083 INFO Left Camera is ready
+2026-10-01 13:45:24,087 INFO waking Center Camera
+2026-10-01 13:45:24,087 INFO Center Camera is ready
+2026-10-01 13:45:24,087 INFO Chrome is already running or window is open
+2026-10-01 13:45:24,088 INFO Opening configured Zoom meeting
+2026-10-01 13:45:54,594 ERROR Zoom meeting window 'Mount Pisgah | Sabbath Service' did not appear before timeout
+2026-10-01 13:45:59,595 INFO Vmix is already running or window is open
+2026-10-01 13:46:17,309 INFO Broadcast Launcher Starting...
+2026-10-01 13:46:17,317 INFO waking Right Camera
+2026-10-01 13:46:17,317 INFO Right Camera is ready
+2026-10-01 13:46:17,318 INFO waking Left Camera
+2026-10-01 13:46:17,318 INFO Left Camera is ready
+2026-10-01 13:46:17,319 INFO waking Center Camera
+2026-10-01 13:46:17,319 INFO Center Camera is ready
+2026-10-01 13:46:17,320 INFO Chrome is already running or window is open
+2026-10-01 13:46:17,320 INFO Opening configured Zoom meeting
+2026-10-01 13:46:47,790 ERROR Zoom meeting window 'Mount Pisgah | Sabbath Service' did not appear before timeout
+2026-10-01 13:46:52,791 INFO Vmix is already running or window is open
+2026-10-01 13:59:46,538 INFO Broadcast Launcher Starting...
+2026-10-01 13:59:46,541 INFO waking Left Camera
+2026-10-01 13:59:46,541 INFO Left Camera is ready
+2026-10-01 13:59:46,546 INFO waking Center Camera
+2026-10-01 13:59:46,546 INFO Center Camera is ready
+2026-10-01 13:59:46,548 INFO waking Right Camera
+2026-10-01 13:59:46,549 INFO Right Camera is ready
+2026-10-01 13:59:46,549 INFO Attempting to launch Chrome
+2026-10-01 13:59:46,553 INFO Chrome launched successfully
+2026-10-01 13:59:46,553 INFO Opening configured Zoom meeting
+2026-10-01 14:00:16,597 ERROR Zoom meeting window 'Mount Pisgah | Sabbath Service' did not appear before timeout
+2026-10-01 14:00:21,598 INFO Attempting to launch Vmix
+2026-10-01 14:00:21,605 INFO Vmix launched successfully
+2026-10-01 14:25:51,421 INFO Broadcast Launcher Starting...
+2026-10-01 14:25:51,423 INFO waking Right Camera
+2026-10-01 14:25:51,423 INFO Right Camera is ready
+2026-10-01 14:25:51,425 INFO waking Center Camera
+2026-10-01 14:25:51,425 INFO Center Camera is ready
+2026-10-01 14:25:51,431 INFO waking Left Camera
+2026-10-01 14:25:51,431 INFO Left Camera is ready
+2026-10-01 14:25:51,432 INFO Attempting to launch Chrome
+2026-10-01 14:25:51,435 INFO Chrome launched successfully
+2026-10-01 14:25:51,435 INFO Opening configured Zoom meeting
+2026-10-01 14:26:21,479 ERROR Zoom meeting window 'Mount Pisgah | Sabbath Service' did not appear before timeout
+2026-10-01 14:26:26,480 INFO Attempting to launch Vmix
+2026-10-01 14:26:26,483 INFO Vmix launched successfully
+2026-10-01 18:31:38,634 INFO Broadcast Launcher Starting...
+2026-10-01 18:31:38,639 INFO waking Right Camera
+2026-10-01 18:31:38,639 INFO Right Camera is ready
+2026-10-01 18:31:38,645 INFO waking Left Camera
+2026-10-01 18:31:38,645 INFO Left Camera is ready
+2026-10-01 18:31:38,646 INFO waking Center Camera
+2026-10-01 18:31:38,646 INFO Center Camera is ready
+2026-10-01 18:31:38,646 INFO Attempting to launch Chrome
+2026-10-01 18:31:38,651 INFO Chrome launched successfully
+2026-10-01 18:31:38,652 INFO Opening configured Zoom meeting
+2026-10-01 18:32:08,706 ERROR Zoom meeting window 'Mount Pisgah | Sabbath Service' did not appear before timeout
+2026-10-01 18:32:13,707 INFO Attempting to launch Vmix
+2026-10-01 18:32:13,713 INFO Vmix launched successfully
+2026-10-01 19:17:55,369 INFO Broadcast Launcher Starting...
+2026-10-01 19:17:55,375 INFO waking Right Camera
+2026-10-01 19:17:55,375 INFO Right Camera is ready
+2026-10-01 19:17:55,376 INFO waking Left Camera
+2026-10-01 19:17:55,376 INFO Left Camera is ready
+2026-10-01 19:17:55,380 INFO waking Center Camera
+2026-10-01 19:17:55,380 INFO Center Camera is ready
+2026-10-01 19:17:55,381 INFO Attempting to launch Chrome
+2026-10-01 19:17:55,385 INFO Chrome launched successfully
+2026-10-01 19:17:55,385 INFO Opening configured Zoom meeting
+2026-10-01 19:18:25,435 ERROR Zoom meeting window 'Mount Pisgah | Sabbath Service' did not appear before timeout
+2026-10-01 19:18:30,437 INFO Attempting to launch Vmix
+2026-10-01 19:18:30,452 INFO Vmix launched successfully
+2026-10-01 19:26:27,633 INFO Broadcast Launcher Starting...
+2026-10-01 19:28:20,399 INFO Broadcast Launcher Starting...
+2026-10-01 19:28:20,402 INFO waking Right Camera
+2026-10-01 19:28:20,402 INFO Right Camera is ready
+2026-10-01 19:28:20,402 INFO waking Center Camera
+2026-10-01 19:28:20,402 INFO Center Camera is ready
+2026-10-01 19:28:20,405 INFO waking Left Camera
+2026-10-01 19:28:20,406 INFO Left Camera is ready
+2026-10-01 19:28:20,406 INFO Chrome is already running or window is open
+2026-10-01 19:28:20,406 INFO Opening configured Zoom meeting
+2026-10-01 19:28:50,444 ERROR Zoom meeting window 'Mount Pisgah | Sabbath Service' did not appear before timeout
+2026-10-01 19:28:50,444 INFO Attempting to launch Vmix
+2026-10-01 19:28:50,448 INFO Vmix launched successfully
+2026-10-01 20:42:25,815 INFO Broadcast Launcher Starting...
+2026-10-01 20:42:25,818 INFO Center Camera is ready
+2026-10-01 20:42:25,819 INFO Right Camera is ready
+2026-10-01 20:42:25,822 INFO Left Camera is ready
+2026-10-01 20:42:25,823 INFO Chrome is already running or window is open
+2026-10-01 20:42:25,823 INFO Opening configured Zoom meeting
+2026-10-01 20:42:55,862 ERROR Zoom meeting window 'Mount Pisgah | Sabbath Service' did not appear before timeout
+2026-10-01 20:42:55,863 INFO Attempting to launch Vmix
+2026-10-01 20:42:55,873 INFO Vmix launched successfully
+2026-10-01 20:42:58,903 INFO vMix API is ready
+2026-10-01 20:42:58,904 INFO Requesting vMix Zoom connection for input 11
+2026-10-01 20:42:58,968 INFO vMix accepted ZoomJoinMeeting request
+2026-10-01 20:42:58,969 INFO Waiting for Zoom livestream permission request
+2026-10-01 20:43:19,024 ERROR Zoom livestream permission window did not appear within 20 seconds
+2026-10-01 20:43:19,024 ERROR Could not grant Zoom streaming permission
+2026-10-01 20:57:33,420 INFO Broadcast Launcher Starting...
+2026-10-01 20:57:33,423 INFO Left Camera is ready
+2026-10-01 20:57:33,427 INFO Center Camera is ready
+2026-10-01 20:57:33,430 INFO Right Camera is ready
+2026-10-01 20:57:33,431 INFO Chrome is already running or window is open
+2026-10-01 20:57:33,431 INFO Opening configured Zoom meeting
+2026-10-01 20:58:03,471 ERROR Zoom meeting window 'Mount Pisgah | Sabbath Service' did not appear before timeout
+2026-10-01 20:58:03,472 INFO Attempting to launch Vmix
+2026-10-01 20:58:03,479 INFO Vmix launched successfully
+2026-10-01 20:58:06,517 INFO vMix API is ready
+2026-10-01 20:58:06,517 INFO Requesting vMix Zoom connection for input 11
+2026-10-01 20:58:06,600 INFO vMix accepted ZoomJoinMeeting request
+2026-10-01 20:58:06,600 INFO Waiting for Zoom livestream permission request
+2026-10-01 20:58:11,923 INFO Zoom livestream permission window detected
+2026-10-01 20:58:12,037 ERROR Failed to click Zoom Grant permission: (5, 'SetForegroundWindow', 'Access is denied.')
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Dev\broadcast-launcher\src\launcher.py", line 188, in grant_zoom_streaming_permission
+    window.click_input(
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\site-packages\pywinauto\base_wrapper.py", line 737, in click_input
+    self.set_focus()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\site-packages\pywinauto\controls\hwndwrapper.py", line 1319, in set_focus
+    win32gui.SetForegroundWindow(self.handle)
+pywintypes.error: (5, 'SetForegroundWindow', 'Access is denied.')
+2026-10-01 20:58:12,038 ERROR Could not grant Zoom streaming permission
+2026-10-01 21:05:43,755 INFO Broadcast Launcher Starting...
+2026-10-01 21:05:43,759 INFO Left Camera is ready
+2026-10-01 21:05:43,759 INFO Center Camera is ready
+2026-10-01 21:05:43,764 INFO Right Camera is ready
+2026-10-01 21:05:43,765 INFO Chrome is already running or window is open
+2026-10-01 21:05:43,765 INFO Opening configured Zoom meeting
+2026-10-01 21:06:13,804 ERROR Zoom meeting window 'Mount Pisgah | Sabbath Service' did not appear before timeout
+2026-10-01 21:06:13,805 INFO Vmix is already running or window is open
+2026-10-01 21:06:13,827 INFO vMix API is ready
+2026-10-01 21:06:13,828 INFO Requesting vMix Zoom connection for input 11
+2026-10-01 21:06:15,114 INFO vMix accepted ZoomJoinMeeting request
+2026-10-01 21:06:15,114 INFO Waiting for Zoom livestream permission request
+2026-10-01 21:06:18,423 INFO Zoom livestream permission window detected
+2026-10-01 21:06:19,699 INFO Clicked Zoom Grant permission
+2026-10-01 21:06:24,714 ERROR Zoom permission window remained after click
+2026-10-01 21:06:24,714 ERROR Could not grant Zoom streaming permission
+2026-10-01 21:07:00,447 INFO Broadcast Launcher Starting...
+2026-10-01 21:07:00,451 INFO Right Camera is ready
+2026-10-01 21:07:00,452 INFO Left Camera is ready
+2026-10-01 21:07:00,459 INFO Center Camera is ready
+2026-10-01 21:07:00,460 INFO Chrome is already running or window is open
+2026-10-01 21:07:00,460 INFO Opening configured Zoom meeting
+2026-10-01 21:07:30,497 ERROR Zoom meeting window 'Mount Pisgah | Sabbath Service' did not appear before timeout
+2026-10-01 21:07:30,497 INFO Vmix is already running or window is open
+2026-10-01 21:07:30,513 INFO vMix API is ready
+2026-10-01 21:07:30,513 INFO Requesting vMix Zoom connection for input 11
+2026-10-01 21:07:31,337 INFO vMix accepted ZoomJoinMeeting request
+2026-10-01 21:07:31,337 INFO Waiting for Zoom livestream permission request
+2026-10-01 21:07:34,343 INFO Zoom livestream permission window detected
+2026-10-01 21:07:34,459 INFO Clicked Zoom Grant permission
+2026-10-01 21:07:34,961 INFO Zoom livestream permission was granted
+2026-10-01 21:07:34,961 INFO vMix Zoom permission workflow completed
+2026-10-01 21:15:34,961 INFO Broadcast Launcher Starting...
+2026-10-01 21:15:34,968 INFO Center Camera is ready
+2026-10-01 21:15:34,971 INFO Right Camera is ready
+2026-10-01 21:15:34,973 INFO Left Camera is ready
+2026-10-01 21:15:34,973 INFO Attempting to launch Chrome
+2026-10-01 21:15:34,976 INFO Chrome launched successfully
+2026-10-01 21:15:34,976 INFO Opening configured Zoom meeting
+2026-10-01 21:16:05,012 ERROR Zoom meeting window 'Mount Pisgah | Sabbath Service' did not appear before timeout
+2026-10-01 21:16:05,012 INFO Attempting to launch Vmix
+2026-10-01 21:16:05,015 INFO Vmix launched successfully
+2026-10-01 21:16:11,062 INFO vMix API is ready
+2026-10-01 21:16:11,062 INFO Requesting vMix Zoom connection for input 11
+2026-10-01 21:16:11,144 INFO vMix accepted ZoomJoinMeeting request
+2026-10-01 21:16:11,144 INFO Waiting for Zoom livestream permission request
+2026-10-01 21:17:11,273 ERROR Zoom livestream permission window did not appear within 60 seconds
+2026-10-01 21:17:11,273 ERROR Could not grant Zoom streaming permission
+2026-10-01 21:26:13,238 INFO Broadcast Launcher Starting...
+2026-10-01 21:26:13,244 INFO Center Camera is ready
+2026-10-01 21:26:13,245 INFO Left Camera is ready
+2026-10-01 21:26:13,245 INFO Right Camera is ready
+2026-10-01 21:26:13,245 INFO Attempting to launch Chrome
+2026-10-01 21:26:13,248 INFO Chrome launched successfully
+2026-10-01 21:26:13,248 INFO Opening configured Zoom meeting
+2026-10-01 21:26:43,301 ERROR Zoom meeting window 'Mount Pisgah | Sabbath Service' did not appear before timeout
+2026-10-01 21:26:43,301 INFO Attempting to launch Vmix
+2026-10-01 21:26:43,305 INFO Vmix launched successfully
+2026-10-01 21:26:46,330 INFO vMix API is ready
+2026-10-01 21:26:46,331 INFO Requesting vMix Zoom connection for input 11
+2026-10-01 21:26:46,397 INFO vMix accepted ZoomJoinMeeting request
+2026-10-01 21:26:46,397 INFO Waiting for Zoom livestream permission request
+2026-10-01 21:27:46,530 ERROR Zoom livestream permission window did not appear within 60 seconds
+2026-10-01 21:27:46,530 ERROR Could not grant Zoom streaming permission
+2026-10-01 21:31:43,725 INFO Broadcast Launcher Starting...
+2026-10-01 21:31:43,727 INFO Left Camera is ready
+2026-10-01 21:31:43,732 INFO Center Camera is ready
+2026-10-01 21:31:43,732 INFO Right Camera is ready
+2026-10-01 21:31:43,732 INFO Attempting to launch Chrome
+2026-10-01 21:31:43,735 INFO Chrome launched successfully
+2026-10-01 21:31:43,735 INFO Opening configured Zoom meeting
+2026-10-01 21:32:13,781 ERROR Zoom meeting window 'Mount Pisgah | Sabbath Service' did not appear before timeout
+2026-10-01 21:32:13,783 INFO Attempting to launch Vmix
+2026-10-01 21:32:13,790 INFO Vmix launched successfully
+2026-10-01 21:32:16,817 INFO vMix API is ready
+2026-10-01 21:32:16,817 INFO Requesting vMix Zoom connection for input 11
+2026-10-01 21:32:16,904 INFO vMix accepted ZoomJoinMeeting request
+2026-10-01 21:32:16,904 INFO Waiting for Zoom livestream permission request
+2026-10-01 21:33:17,034 ERROR Zoom livestream permission window did not appear within 60 seconds
+2026-10-01 21:33:17,034 ERROR Could not grant Zoom streaming permission
+2026-10-01 21:35:19,054 INFO Broadcast Launcher Starting...
+2026-10-01 21:38:13,881 INFO Broadcast Launcher Starting...
+2026-10-01 21:38:13,883 INFO Center Camera is ready
+2026-10-01 21:38:13,890 INFO Left Camera is ready
+2026-10-01 21:38:13,893 INFO Right Camera is ready
+2026-10-01 21:38:13,893 INFO Attempting to launch Chrome
+2026-10-01 21:38:13,898 INFO Chrome launched successfully
+2026-10-01 21:38:13,898 INFO Deferring Zoom meeting launch until after vMix connects
+2026-10-01 21:38:13,898 INFO Attempting to launch Vmix
+2026-10-01 21:38:13,905 INFO Vmix launched successfully
+2026-10-01 21:38:16,948 INFO vMix API is ready
+2026-10-01 21:38:16,948 INFO Requesting vMix Zoom connection for input 11
+2026-10-01 21:38:17,026 INFO vMix accepted ZoomJoinMeeting request
+2026-10-01 21:38:17,026 INFO Waiting for Zoom livestream permission request
+2026-10-01 21:39:17,154 ERROR Zoom livestream permission window did not appear within 60 seconds
+2026-10-01 21:39:17,154 ERROR Could not grant Zoom streaming permission
+2026-10-01 21:39:17,154 INFO Opening configured Zoom meeting
+2026-10-01 21:39:47,201 ERROR Zoom meeting window 'Mount Pisgah | Sabbath Service' did not appear before timeout
+2026-10-01 21:39:47,201 ERROR Zoom meeting did not open successfully
+2026-10-01 21:42:52,445 INFO Broadcast Launcher Starting...
+2026-10-01 21:42:52,445 INFO vMix Zoom connection workflow completed
+2026-10-01 21:45:38,662 INFO Broadcast Launcher Starting...
+2026-10-01 21:45:38,665 INFO Right Camera is ready
+2026-10-01 21:45:38,666 INFO Center Camera is ready
+2026-10-01 21:45:38,667 INFO Left Camera is ready
+2026-10-01 21:45:38,668 INFO Attempting to launch Chrome
+2026-10-01 21:45:38,672 INFO Chrome launched successfully
+2026-10-01 21:45:38,672 INFO Deferring Zoom meeting launch until after vMix connects
+2026-10-01 21:45:38,672 INFO Attempting to launch Vmix
+2026-10-01 21:45:38,675 INFO Vmix launched successfully
+2026-10-01 21:45:41,676 INFO Opening configured Zoom meeting
+2026-10-01 21:46:11,723 ERROR Zoom meeting window 'Mount Pisgah | Sabbath Service' did not appear before timeout
+2026-10-01 21:46:11,723 ERROR Zoom meeting did not open successfully
+2026-10-01 21:46:11,747 INFO vMix API is ready
+2026-10-01 21:46:11,748 INFO Requesting vMix Zoom connection for input 11
+2026-10-01 21:46:13,298 INFO vMix accepted ZoomJoinMeeting request
+2026-10-01 21:46:13,299 INFO Waiting for Zoom livestream permission request
+2026-10-01 21:46:16,608 INFO Zoom livestream permission window detected
+2026-10-01 21:46:16,989 INFO Clicked Zoom Grant permission
+2026-10-01 21:46:17,490 INFO Zoom livestream permission was granted
+2026-10-01 21:46:17,490 INFO vMix Zoom permission workflow completed
+2026-10-01 21:46:17,490 INFO vMix Zoom connection workflow completed
+2026-10-01 21:48:14,024 INFO Broadcast Launcher Starting...
+2026-10-01 21:48:14,028 INFO Left Camera is ready
+2026-10-01 21:48:14,030 INFO Right Camera is ready
+2026-10-01 21:48:14,031 INFO Center Camera is ready
+2026-10-01 21:48:14,031 INFO Attempting to launch Chrome
+2026-10-01 21:48:14,034 INFO Chrome launched successfully
+2026-10-01 21:48:14,034 INFO Deferring Zoom meeting launch until after vMix connects
+2026-10-01 21:48:14,034 INFO Attempting to launch Vmix
+2026-10-01 21:48:14,037 INFO Vmix launched successfully
+2026-10-01 21:48:17,038 INFO Opening configured Zoom meeting
+2026-10-01 21:48:47,088 ERROR Zoom meeting window 'Mount Pisgah | Sabbath Service' did not appear before timeout
+2026-10-01 21:48:47,088 ERROR Zoom meeting did not open successfully
+2026-10-01 21:48:47,123 INFO vMix API is ready
+2026-10-01 21:48:47,124 INFO Requesting vMix Zoom connection for input 11
+2026-10-01 21:48:48,484 INFO vMix accepted ZoomJoinMeeting request
+2026-10-01 21:48:48,484 INFO Waiting for Zoom livestream permission request
+2026-10-01 21:48:51,794 INFO Zoom livestream permission window detected
+2026-10-01 21:48:52,180 INFO Clicked Zoom Grant permission
+2026-10-01 21:48:52,682 INFO Zoom livestream permission was granted
+2026-10-01 21:48:52,683 INFO vMix Zoom permission workflow completed
+2026-10-01 21:48:52,683 INFO vMix Zoom connection workflow completed
+2026-10-01 22:21:27,836 INFO Broadcast Launcher Starting...
+2026-10-01 22:21:27,840 INFO Center Camera is ready
+2026-10-01 22:21:27,843 INFO Right Camera is ready
+2026-10-01 22:21:27,846 INFO Left Camera is ready
+2026-10-01 22:21:27,847 INFO Attempting to launch Chrome
+2026-10-01 22:21:27,849 INFO Chrome launched successfully
+2026-10-01 22:21:27,849 INFO Deferring Zoom meeting launch until after vMix connects
+2026-10-01 22:21:27,850 INFO Attempting to launch Vmix
+2026-10-01 22:21:27,852 INFO Vmix launched successfully
+2026-10-01 22:21:30,855 INFO Opening configured Zoom meeting
+2026-10-01 22:22:00,903 ERROR Zoom meeting window 'Mount Pisgah | Sabbath Service' did not appear before timeout
+2026-10-01 22:22:00,903 ERROR Zoom meeting did not open successfully
+2026-10-01 22:22:00,946 INFO vMix API is ready
+2026-10-01 22:22:00,946 INFO Requesting vMix Zoom connection for input 11
+2026-10-01 22:22:01,033 INFO vMix accepted ZoomJoinMeeting request
+2026-10-01 22:22:01,033 INFO Waiting for Zoom livestream permission request
+2026-10-01 22:22:01,035 INFO Zoom livestream permission window detected
+2026-10-01 22:22:01,776 INFO Clicked Zoom Grant permission
+2026-10-01 22:22:02,278 INFO Zoom livestream permission was granted
+2026-10-01 22:22:02,279 INFO vMix Zoom permission workflow completed
+2026-10-01 22:22:02,279 INFO vMix Zoom connection workflow completed
+2026-10-01 22:23:13,713 INFO Broadcast Launcher Starting...
+2026-10-01 22:23:13,716 INFO Right Camera is ready
+2026-10-01 22:23:13,720 INFO Left Camera is ready
+2026-10-01 22:23:13,722 INFO Center Camera is ready
+2026-10-01 22:23:13,723 INFO Attempting to launch Chrome
+2026-10-01 22:23:13,726 INFO Chrome launched successfully
+2026-10-01 22:23:13,726 INFO Deferring Zoom meeting launch until after vMix connects
+2026-10-01 22:23:13,726 INFO Attempting to launch Vmix
+2026-10-01 22:23:13,729 INFO Vmix launched successfully
+2026-10-01 22:23:16,730 INFO Opening configured Zoom meeting
+2026-10-01 22:23:46,784 ERROR Zoom meeting window 'Mount Pisgah | Sabbath Service' did not appear before timeout
+2026-10-01 22:23:46,784 ERROR Zoom meeting did not open successfully
+2026-10-01 22:23:46,822 INFO vMix API is ready
+2026-10-01 22:23:46,822 INFO Requesting vMix Zoom connection for input 11
+2026-10-01 22:23:48,126 INFO vMix accepted ZoomJoinMeeting request
+2026-10-01 22:23:48,126 INFO Waiting for Zoom livestream permission request
+2026-10-01 22:23:51,443 INFO Zoom livestream permission window detected
+2026-10-01 22:23:51,833 INFO Clicked Zoom Grant permission
+2026-10-01 22:23:52,335 INFO Zoom livestream permission was granted
+2026-10-01 22:23:52,335 INFO vMix Zoom permission workflow completed
+2026-10-01 22:23:52,335 INFO vMix Zoom connection workflow completed
+2026-10-01 22:26:10,770 INFO Broadcast Launcher Starting...
+2026-10-01 22:26:10,776 INFO Right Camera is ready
+2026-10-01 22:26:10,776 INFO Left Camera is ready
+2026-10-01 22:26:10,778 INFO Center Camera is ready
+2026-10-01 22:26:10,779 INFO Attempting to launch Chrome
+2026-10-01 22:26:10,782 INFO Chrome launched successfully
+2026-10-01 22:26:10,782 INFO Deferring Zoom meeting launch until after vMix connects
+2026-10-01 22:26:10,782 INFO Attempting to launch Vmix
+2026-10-01 22:26:10,784 INFO Vmix launched successfully
+2026-10-01 22:26:13,786 INFO Opening configured Zoom meeting
+2026-10-01 22:26:43,834 ERROR Zoom meeting window 'Mount Pisgah | Sabbath Service' did not appear before timeout
+2026-10-01 22:26:43,834 ERROR Zoom meeting did not open successfully
+2026-10-01 22:26:43,871 INFO vMix API is ready
+2026-10-01 22:26:43,871 INFO Requesting vMix Zoom connection for input 11
+2026-10-01 22:26:43,959 INFO vMix accepted ZoomJoinMeeting request
+2026-10-01 22:26:43,959 INFO Waiting for Zoom livestream permission request
+2026-10-01 22:26:43,961 INFO Zoom livestream permission window detected
+2026-10-01 22:26:44,077 INFO Clicked Zoom Grant permission
+2026-10-01 22:26:44,579 INFO Zoom livestream permission was granted
+2026-10-01 22:26:44,579 INFO vMix Zoom permission workflow completed
+2026-10-01 22:26:44,579 INFO vMix Zoom connection workflow completed
+2026-10-01 22:34:54,363 INFO Broadcast Launcher Starting...
+2026-10-01 22:34:54,368 INFO Center Camera is ready
+2026-10-01 22:34:54,369 INFO Right Camera is ready
+2026-10-01 22:34:54,371 INFO Left Camera is ready
+2026-10-01 22:34:54,372 INFO Attempting to launch Chrome
+2026-10-01 22:34:54,375 INFO Chrome launched successfully
+2026-10-01 22:34:54,375 INFO Deferring Zoom meeting launch until after vMix connects
+2026-10-01 22:34:54,375 INFO Attempting to launch Vmix
+2026-10-01 22:34:54,377 INFO Vmix launched successfully
+2026-10-01 22:34:57,378 INFO Opening configured Zoom meeting
+2026-10-01 22:35:27,425 ERROR Zoom meeting window 'Mount Pisgah | Sabbath Service' did not appear before timeout
+2026-10-01 22:35:27,425 ERROR Zoom meeting did not open successfully
+2026-10-01 22:35:27,455 INFO vMix API is ready
+2026-10-01 22:35:27,455 INFO Requesting vMix Zoom connection for input 11
+2026-10-01 22:35:28,849 INFO vMix accepted ZoomJoinMeeting request
+2026-10-01 22:35:28,849 INFO Waiting for Zoom livestream permission request
+2026-10-01 22:35:32,358 INFO Zoom livestream permission window detected
+2026-10-01 22:35:32,478 INFO Clicked Zoom Grant permission
+2026-10-01 22:35:32,980 INFO Zoom livestream permission was granted
+2026-10-01 22:35:32,981 INFO vMix Zoom permission workflow completed
+2026-10-01 22:35:32,981 INFO vMix Zoom connection workflow completed
+2026-10-01 22:37:02,007 INFO Broadcast Launcher Starting...
+2026-10-01 22:37:02,011 INFO Left Camera is ready
+2026-10-01 22:37:02,013 INFO Right Camera is ready
+2026-10-01 22:37:02,013 INFO Center Camera is ready
+2026-10-01 22:37:02,014 INFO Attempting to launch Chrome
+2026-10-01 22:37:02,017 INFO Chrome launched successfully
+2026-10-01 22:37:02,017 INFO Deferring Zoom meeting launch until after vMix connects
+2026-10-01 22:37:02,018 INFO Attempting to launch Vmix
+2026-10-01 22:37:02,020 INFO Vmix launched successfully
+2026-10-01 22:37:05,022 INFO Opening configured Zoom meeting
+2026-10-01 22:37:35,067 ERROR Zoom meeting window 'Mount Pisgah | Sabbath Service' did not appear before timeout
+2026-10-01 22:37:35,067 ERROR Zoom meeting did not open successfully
+2026-10-01 22:37:35,099 INFO vMix API is ready
+2026-10-01 22:37:35,099 INFO Requesting vMix Zoom connection for input 11
+2026-10-01 22:37:35,187 INFO vMix accepted ZoomJoinMeeting request
+2026-10-01 22:37:35,187 INFO Waiting for Zoom livestream permission request
+2026-10-01 22:37:35,189 INFO Zoom livestream permission window detected
+2026-10-01 22:37:35,305 INFO Clicked Zoom Grant permission
+2026-10-01 22:37:35,807 INFO Zoom livestream permission was granted
+2026-10-01 22:37:35,807 INFO vMix Zoom permission workflow completed
+2026-10-01 22:37:35,807 INFO vMix Zoom connection workflow completed
+2026-10-01 22:42:57,590 INFO Broadcast Launcher Starting...
+2026-10-01 22:42:57,595 INFO Center Camera is ready
+2026-10-01 22:42:57,600 INFO Left Camera is ready
+2026-10-01 22:42:57,601 INFO Right Camera is ready
+2026-10-01 22:42:57,602 INFO Attempting to launch Chrome
+2026-10-01 22:42:57,605 INFO Chrome launched successfully
+2026-10-01 22:42:57,605 INFO Deferring Zoom meeting launch until after vMix connects
+2026-10-01 22:42:57,605 INFO Attempting to launch Vmix
+2026-10-01 22:42:57,608 INFO Vmix launched successfully
+2026-10-01 22:43:00,609 INFO Opening configured Zoom meeting
+2026-10-01 22:43:30,654 ERROR Zoom meeting window 'Mount Pisgah | Sabbath Service' did not appear before timeout
+2026-10-01 22:43:30,654 ERROR Zoom meeting did not open successfully
+2026-10-01 22:43:30,695 INFO vMix API is ready
+2026-10-01 22:43:30,695 INFO Requesting vMix Zoom connection for input 11
+2026-10-01 22:43:32,229 INFO vMix accepted ZoomJoinMeeting request
+2026-10-01 22:43:32,229 INFO Waiting for Zoom livestream permission request
+2026-10-01 22:43:35,539 INFO Zoom livestream permission window detected
+2026-10-01 22:43:35,917 INFO Clicked Zoom Grant permission
+2026-10-01 22:43:36,418 INFO Zoom livestream permission was granted
+2026-10-01 22:43:36,418 INFO vMix Zoom permission workflow completed
+2026-10-01 22:43:36,418 INFO vMix Zoom connection workflow completed
+2026-10-01 22:58:25,962 INFO Broadcast Launcher Starting...
+2026-10-01 22:58:25,967 INFO Right Camera is ready
+2026-10-01 22:58:25,967 INFO Left Camera is ready
+2026-10-01 22:58:25,974 INFO Center Camera is ready
+2026-10-01 22:58:25,974 INFO Attempting to launch Chrome
+2026-10-01 22:58:25,979 INFO Chrome launched successfully
+2026-10-01 22:58:25,979 INFO Deferring Zoom meeting launch until after vMix connects
+2026-10-01 22:58:25,980 INFO Attempting to launch Vmix
+2026-10-01 22:58:26,083 INFO Vmix launched successfully
+2026-10-01 22:58:29,084 INFO Opening configured Zoom meeting
+2026-10-01 22:58:59,128 ERROR Zoom meeting window 'Mount Pisgah | Sabbath Service' did not appear before timeout
+2026-10-01 22:58:59,128 ERROR Zoom meeting did not open successfully
+2026-10-01 22:58:59,153 INFO vMix API is ready
+2026-10-01 22:58:59,179 INFO Requesting vMix Zoom connection for input 11
+2026-10-01 22:58:59,282 INFO vMix accepted ZoomJoinMeeting request
+2026-10-01 22:58:59,282 INFO Waiting for Zoom livestream permission request
+2026-10-01 22:58:59,284 INFO Zoom livestream permission window detected
+2026-10-01 22:58:59,399 INFO Clicked Zoom Grant permission
+2026-10-01 22:58:59,900 INFO Zoom livestream permission was granted
+2026-10-01 22:58:59,900 INFO vMix Zoom permission workflow completed
+2026-10-01 22:58:59,901 INFO vMix Zoom connection workflow completed
+2026-10-01 22:59:08,099 INFO vMix streaming started
+2026-10-01 22:59:08,099 INFO vMix streaming workflow completed

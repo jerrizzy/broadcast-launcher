@@ -24,6 +24,15 @@ def main():
     launcher = BroadcastLauncher()
     launcher.wake_cameras()
     launcher.launch_all()
+    launcher.launch_zoom()
+    if launcher.connect_zoom_to_vmix():
+        logging.info("vMix Zoom connection workflow completed")
+        if launcher.start_vmix_streaming():
+            logging.info("vMix streaming workflow completed")
+        else:
+            logging.error("vMix streaming workflow failed")
+    else:
+        logging.error("vMix Zoom connection workflow failed")
     
 
 if __name__ == "__main__":
